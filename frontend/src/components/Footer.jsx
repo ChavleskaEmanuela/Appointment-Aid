@@ -13,8 +13,8 @@ const Footer = () => {
 
             {/* ----- Right Section ----- */}
             <div>
-                <p>COMPANY</p>
-                <ul>
+                <p className='text-xl font-medium mb-5'>COMPANY</p>
+                <ul className='flex flex-col gap-2 text-gray-600'>
                     <li>Home</li>
                     <li>About us</li>
                     <li>Contact us</li>
@@ -26,7 +26,7 @@ const Footer = () => {
             {/* ------ Copyright Text ------ */}
             <div>
                 <hr />
-                <p>Copyright 2024@ Appointment Aid- All Rights Reserved.</p>
+                <p className='py-5 text-sm text-center'>Copyright 2024@ Appointment Aid- All Rights Reserved.</p>
             </div>
         </div>
     </div>
